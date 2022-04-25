@@ -4,10 +4,10 @@
 
 template<typename T, int size>
 class TPQueue {
-  private:
+ private:
   T arr[100];
   int ft, lt;
-  public:
+ public:
   TPQueue() : ft(0), lt(0) {}
   void push(T p) {
     int znach = lt++;
